@@ -7,7 +7,8 @@ object ScalaNQueens extends App {
   }
 
   private def AskForDimensions(): Int = {
-    20
+    println("Please enter a dimension...")
+    scala.io.StdIn.readInt()
   }
 
   private def RequireDimensions(args: Array[String]): Int = {
